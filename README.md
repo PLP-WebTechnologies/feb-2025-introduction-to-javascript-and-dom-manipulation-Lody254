@@ -1,26 +1,40 @@
-# Introduction to JavaScript and DOM Manipulation
 
-## Objectives
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Well-Structured HTML5 Page</title>
+</head>
+<body>
 
-Write basic JavaScript functions.
-Manipulate the DOM dynamically.
-Respond to user interactions.
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-## Instructions
+  <main>
+    <section>
+      <h2>About This Site</h2>
+      <p>This website demonstrates semantic HTML5 structure and elements.</p>
+    </section>
 
-- Create a script.js file and link it to a HTML.
-- Structure the document using DOCTYPE, html, head, and body.
+    <article>
+      <h2>Latest Post</h2>
+      <p>This is an example blog post that is marked up with the <code>&lt;article&gt;</code> tag.</p>
+    </article>
+  </main>
 
->[!NOTE]
->  - Write JavaScript that:
->  - Changes text content dynamically.
->  - Modifies CSS styles via JavaScript.
->  - Adds or removes an element when a button is clicked.
+  <footer>
+    <p>© 2025 My Website. All rights reserved.</p>
+  </footer>
 
-
-# Tasks
-- Create a well-structured HTML5 document.
-- Use at least 5 different HTML elements.
-- Ensure semantic correctness.
-
-Happy Coding! 💻✨
+</body>
+</html>
